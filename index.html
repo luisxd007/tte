@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tus tareas express - hacemos tu tarea</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.0.2/tailwind.min.css">
+    <meta charset="utf-8" />
+    <link rel="shortcut icon" type="image/icon" href="faviconTTE.ico"/>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="https://fonts.googleapis.com/css2?family=Zilla+Slab:ital@1&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.3.5/dist/alpine.min.js" defer></script>
+    <style>
+        .serif {
+            font-family: 'Zilla Slab', serif;
+        }
+
+        [x-cloak] { display: none; }
+
+        .grid-indigo {
+            background-image: radial-gradient(#5a67d8 2px, transparent 2px);
+            background-size: 16px 16px;
+        }
+    </style>
+</head>
+<body>
+<!-- Section 1 -->
+<section class="relative z-20 w-full pt-24 pb-32 bg-white">
+    <div class="px-8 mx-auto max-w-7xl xl:px-8">
+        <div class="flex flex-col md:flex-row">
+            <div class="flex flex-col items-center justify-center w-full mb-16 md:items-start md:mb-0 md:w-5/12 lg:w-1/3">
+                <h1 class="mb-2 text-5xl font-black text-center text-black md:text-3xl lg:text-5xl md:text-left">¡Libérate <br>del estrés!</h1>
+                <p class="mb-12 text-xl tracking-wide text-center text-gray-700 md:text-left">Hacemos tus tareas. Más de 500 trabajos realizados nos respaldan.</p>
+                <a href="#_" class="relative inline-block w-64 px-5 py-3 mt-2 text-center text-white bg-gray-900 rounded-full">Cotizar tarea por whatsapp</a>
+            </div>
+            
+            <div class="relative md:w-7/12 lg:w-2/3 md:pl-12 xl:pl-0">
+                <img draggable="false" src="https://cdn.devdojo.com/images/december2020/hand-3d.png" class="absolute bottom-0 left-0 z-10 w-16 h-auto ml-5 -mb-5 transform rotate-45 lg:w-20 xl:w-32">
+                <div class="relative overflow-hidden rounded-lg shadow-2xl">                        
+                    </div>
+                    <img draggable="false" src="https://i.ibb.co/vkLVNKP/Captura-de-Pantalla-2021-05-27-a-la-s-19-29-27.png">
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<!-- Section 2 -->
+<section class="pt-16 pb-20 sm:pt-24 sm:pb-32 bg-gray-50">
+    <div class="items-center max-w-6xl px-12 mx-auto sm:px-20 md:px-5">
+        <div class="flex flex-wrap items-center -mx-3">
+            <div class="order-1 w-full px-3 lg:w-1/2 lg:order-0">
+                <div class="w-full max-w-md xl:max-w-xl">
+                    <h2 class="relative mb-6 text-3xl font-semibold leading-tight tracking-tight xl:font-bold lg:text-6xl xl:text-7xl">¿Qué trabajos hacemos?</h2>
+                    <ul>
+                        <li class="flex items-center py-2 space-x-4 xl:py-3">
+                            <img src="https://cdn.devdojo.com/images/february2021/checkmark.png" class="w-4 h-4">
+                            <span class="font-medium font-bold text-gray-700">Ensayos</span>
+                        </li>
+                        <li class="flex items-center py-2 space-x-4 xl:py-3">
+                            <img src="https://cdn.devdojo.com/images/february2021/checkmark.png" class="w-4 h-4">
+                            <span class="font-medium font-bold text-gray-700">Investigaciones</span>
+                        </li>
+                        <li class="flex items-center py-2 space-x-4 xl:py-3">
+                            <img src="https://cdn.devdojo.com/images/february2021/checkmark.png" class="w-4 h-4">
+                            <span class="font-medium font-bold text-gray-700">Resúmenes</span>
+                        </li>
+                        <li class="flex items-center py-2 space-x-4 xl:py-3">
+                            <img src="https://cdn.devdojo.com/images/february2021/checkmark.png" class="w-4 h-4">
+                            <span class="font-medium font-bold text-gray-700">Diseño gráfico</span>
+                        </li>
+                        <li class="flex items-center py-2 space-x-4 xl:py-3">
+                            <img src="https://cdn.devdojo.com/images/february2021/checkmark.png" class="w-4 h-4">
+                            <span class="font-medium font-bold text-gray-700">Ejercicios de matemáticas (hasta maestría)</span>
+                        </li>
+                        <li class="flex items-center py-2 space-x-4 xl:py-3">
+                            <img src="https://cdn.devdojo.com/images/february2021/checkmark.png" class="w-4 h-4">
+                            <span class="font-medium font-bold text-gray-700">Presentaciones</span>
+                        </li>
+
+                        <li class="flex items-center py-2 space-x-4 xl:py-3">
+                            <img src="https://cdn.devdojo.com/images/february2021/checkmark.png" class="w-4 h-4">
+                            <span class="font-medium font-bold text-gray-700">Páginas web</span>
+                        </li>
+
+                        <li class="flex items-center py-2 space-x-4 xl:py-3">
+                            <img src="https://cdn.devdojo.com/images/february2021/checkmark.png" class="w-4 h-4">
+                            <span class="font-medium font-bold text-gray-700">Infografías</span>
+                        </li>
+
+                        <li class="flex items-center py-2 space-x-4 xl:py-3">
+                            <img src="https://cdn.devdojo.com/images/february2021/checkmark.png" class="w-4 h-4">
+                            <span class="font-medium font-bold text-gray-700">Trípticos</span>
+                        </li>
+                        <li class="flex items-center py-2 space-x-4 xl:py-3">
+                          <img src="https://cdn.devdojo.com/images/february2021/checkmark.png" class="w-4 h-4">
+                          <span class="font-medium font-bold text-gray-700">Y mucho más...</span>
+                      </li>
+
+                    </ul>
+                </div>
+            </div>
+            <div class="relative w-full px-3 mb-12 lg:-ml-20 lg:w-1/2 order-0 lg:order-1 lg:mb-0">
+                <img draggable="false" class="absolute top-0 right-0 z-10 hidden mx-auto -mt-32 rounded-xl shadow-2xl opacity-100 xl:-mr-12 sm:max-w-xs lg:max-w-sm lg:block" src="https://i.ibb.co/SwKYLZm/CapHTML.png">
+                <img draggable="false" class="relative z-20 w-full mx-auto mt-3 rounded-xl shadow-2xl sm:max-w-none lg:-ml-10 lg:max-w-sm" src="https://i.ibb.co/R64PBwf/Captura-Trabajo-PP-copia.png" alt="feature image">
+                <img class="absolute bottom-0 right-0 z-10 hidden mx-auto -mb-48 rounded-xl shadow-2xl xl:-mr-12 sm:max-w-xs lg:max-w-sm lg:block" src="https://image.freepik.com/vector-gratis/cronologia-reapertura-fases_52683-38971.jpg">
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Section 3 -->
+<section class="bg-white">
+    <div class="flex flex-col-reverse items-center justify-center max-w-5xl px-10 pt-16 mx-auto md:flex-row md:space-x-20 lg:space-x-32 md:pt-24">
+        <div class="box-content relative flex items-start justify-center flex-shrink-0 pb-0 border-2 border-b-0 w-80 rounded-t-3xl h-96">
+            <div class="absolute z-20 h-8 mx-auto bg-white w-44 rounded-b-xl"></div>
+            <div class="absolute w-full h-full p-2 pb-0">                
+                <img draggable="false" class="rounded-t-2xl" src="https://i.ibb.co/hcmctLV/captura-cliente-1623.png" alt="">
+            </div>
+        </div>
+        <div class="flex flex-col items-start w-full h-full max-w-xs pb-10 space-y-5 md:pb-0 md:max-w-none">
+            <h2 class="text-5xl font-black text-gray-900">Ponte cómod@ y espera tu tarea.</h2>
+            <p class="text-gray-500 text-xl">Recibe tu tarea por whatsapp, correo electrónico, link de descarga o como tu lo prefieras, ¡tú eliges!</p>
+            <a href="#_" class="flex items-center px-4 py-2 font-medium text-gray-900 border-2 border-gray-900 rounded-lg">
+                Cotizar tarea
+            </a>
+        </div>
+    </div>
+</section>
+
+<!-- Section 4 -->
+<section class="relative leading-7 text-gray-900 bg-white border-solid mt-28">
+  <div class="box-border mx-auto border-solid lg:pl-8 max-w-7xl">
+    <div class="flex flex-col items-center leading-7 text-gray-900 border-0 border-gray-200 lg:flex-row">
+      <div class="box-border flex flex-col justify-center w-full h-full p-8 text-gray-900 border-solid lg:w-1/2 md:p-16 lg:p-0 lg:pl-10 lg:pr-20">
+        <h2 class="m-0 text-3xl font-medium leading-tight tracking-tight text-left text-black sm:text-4xl md:text-5xl">¿Por qué elegirnos a nosotros?</h2>
+        <p class="mt-2 text-xl text-left border-0 border-gray-200 sm:text-2xl">We offer the best features in the industry.</p>
+        <div class="grid gap-4 mt-8 leading-7 border-0 border-gray-200 sm:mt-10 sm:gap-6 lg:mt-12 lg:gap-8">
+          <div class="box-border flex items-start text-gray-900 border-solid">
+            <div class="flex items-center justify-center w-12 h-12 leading-7 bg-blue-600 border-0 border-gray-200 rounded-full">
+              <p class="box-border m-0 text-xl text-white border-solid">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-eye-fill" viewBox="0 0 16 16">
+                  <path d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0z"/>
+                  <path d="M0 8s3-5.5 8-5.5S16 8 16 8s-3 5.5-8 5.5S0 8 0 8zm8 3.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7z"/>
+                </svg>
+              </p>
+            </div>
+            <div class="flex-1 ml-6 leading-7 border-0 border-gray-200">
+              <h3 class="box-border m-0 text-lg font-semibold leading-tight tracking-tight text-black border-solid sm:text-xl md:text-2xl">100% confidencial</h3>
+              <p class="box-border mt-2 text-base leading-normal text-gray-900 border-solid">Nunca revelaremos tus datos con nadie, ni siquiera con los asesores que hacen tu tarea. Puedes estar tranquil@ de cotizar con nosotros sin que absolutamente nadie se entere.</p>
+            </div>
+          </div>
+          <div class="box-border flex items-start text-gray-900 border-solid">
+            <div class="flex items-center justify-center w-12 h-12 leading-7 bg-blue-600 border-0 border-gray-200 rounded-full">
+              <p class="box-border m-0 text-xl text-white border-solid">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"  fill="white" viewBox="0 0 24 24"><path d="M23.873 9.81c.087-.251.127-.509.127-.764 0-.77-.38-1.514-1.055-1.981-2.153-1.492-1.868-1.117-2.679-3.543-.34-1.013-1.319-1.697-2.424-1.697h-.007c-2.653.009-2.193.151-4.334-1.354-.446-.314-.974-.471-1.501-.471s-1.055.157-1.502.471c-2.156 1.515-1.686 1.362-4.334 1.353h-.007c-1.104 0-2.084.685-2.422 1.697-.812 2.432-.534 2.056-2.678 3.544-.677.469-1.057 1.212-1.057 1.983 0 .254.042.511.127.762.831 2.428.829 1.962 0 4.38-.085.251-.127.507-.127.762 0 .77.38 1.514 1.057 1.983 2.146 1.49 1.868 1.113 2.679 3.543.338 1.013 1.317 1.697 2.422 1.697h.007c2.653-.009 2.193-.152 4.334 1.353.446.314.974.472 1.501.472s1.055-.158 1.502-.471c2.141-1.504 1.679-1.362 4.334-1.353h.007c1.104 0 2.084-.685 2.424-1.697.811-2.427.525-2.052 2.679-3.543.674-.469 1.054-1.213 1.054-1.983 0-.254-.04-.512-.127-.763-.831-2.428-.827-1.963 0-4.38zm-13.373 6.94l-4.5-4.364 1.858-1.857 2.642 2.505 5.642-5.783 1.858 1.857-7.5 7.642z"/></svg>
+
+
+              </p>
+            </div>
+            <div class="flex-1 ml-6 leading-7 border-0 border-gray-200">
+              <h3 class="box-border m-0 text-lg font-semibold leading-tight tracking-tight text-black border-solid sm:text-xl md:text-2xl">100% seguro</h3>
+              <p class="box-border mt-2 text-base leading-normal text-gray-900 border-solid">Tus trabajos estarán listos a tiempo y serán de la mejor calidad que encuentres.</p>
+            </div>
+          </div>
+          <div class="box-border flex items-start text-gray-900 border-solid">
+            <div class="flex items-center justify-center w-12 h-12 leading-7 bg-blue-600 border-0 border-gray-200 rounded-full">
+              <p class="box-border m-0 text-xl text-white border-solid">
+                <svg fill="white" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12.819 14.427c.064.267.077.679-.021.948-.128.351-.381.528-.754.528h-.637v-2.12h.496c.474 0 .803.173.916.644zm3.091-8.65c2.047-.479 4.805.279 6.09 1.179-1.494-1.997-5.23-5.708-7.432-6.882 1.157 1.168 1.563 4.235 1.342 5.703zm-7.457 7.955h-.546v.943h.546c.235 0 .467-.027.576-.227.067-.123.067-.366 0-.489-.109-.198-.341-.227-.576-.227zm13.547-2.732v13h-20v-24h8.409c4.858 0 3.334 8 3.334 8 3.011-.745 8.257-.42 8.257 3zm-12.108 2.761c-.16-.484-.606-.761-1.224-.761h-1.668v3.686h.907v-1.277h.761c.619 0 1.064-.277 1.224-.763.094-.292.094-.597 0-.885zm3.407-.303c-.297-.299-.711-.458-1.199-.458h-1.599v3.686h1.599c.537 0 .961-.181 1.262-.535.554-.659.586-2.035-.063-2.693zm3.701-.458h-2.628v3.686h.907v-1.472h1.49v-.732h-1.49v-.698h1.721v-.784z"/></svg>              </p>
+            </div>
+            <div class="flex-1 ml-6 leading-7 border-0 border-gray-200">
+              <h3 class="box-border m-0 text-lg font-semibold leading-tight tracking-tight text-black border-solid sm:text-xl md:text-2xl">Garantizado</h3>
+              <p class="box-border mt-2 text-base leading-normal text-gray-900 border-solid">Después de entregar tu tarea, cuentas con un seguro por 24 horas para solicitar cualquier corrección a tu trabajo.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="w-full h-full overflow-hidden leading-7 text-gray-900 border-0 border-gray-200 lg:w-1/2 rounded-3xl mb-">
+        <img draggable="false" src="https://i.ibb.co/kS8KDDx/computadora.jpg" class="object-cover w-full h-full">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Chat popup -->
+    <!-- Web3Forms Popup Widget Starts here -->
+    <div  id="web3forms__widget" x-data="{ open: false }""> 
+        <div
+          id="w3f__widget--content"
+          x-show="open"
+          x-transition:enter-start="opacity-0 translate-y-5"
+          x-transition:enter="transition duration-200 transform ease"
+          x-transition:leave="transition duration-200 transform ease"
+          x-transition:leave-end="opacity-0 translate-y-5"
+          @click.away="open = false"
+          class="fixed flex flex-col z-50 bottom-[100px] top-0 right-0 h-auto left-0 sm:top-auto sm:right-5 sm:left-auto h-[calc(100%-95px)] w-full sm:w-[350px] overflow-auto min-h-[250px] sm:h-[600px] border border-gray-300 bg-white shadow-2xl rounded-md"
+        >
+        <div class="flex p-5 flex-col justify-center items-center h-32 bg-indigo-600">
+          <h3 class="text-lg text-white">¿Cómo podemos ayudarte?</h3>
+          <p class="text-white opacity-50 text-center">Normalmente respondemos en menos de 10 minutos a través de Whatsapp.</p>
+        </div>
+         <div class="bg-gray-50 flex-grow p-6"> 
+            <form
+            action="https://api.web3forms.com/submit"
+            method="POST"
+            id="form"
+            class="needs-validation"
+            novalidate
+          >
+            <input type="hidden" name="apikey" value="6ebc0597-287d-4986-9a59-fc9b4b2b2ae0" />
+            <input
+              type="hidden"
+              name="subject"
+              value="Nuevo mensaje en casicreativos terapia"
+            />
+            <input
+              type="checkbox"
+              name="botcheck"
+              id=""
+              style="display: none;"
+            />
+  
+             
+              <div class="mb-4">
+                <label
+                  for="full_name"
+                  class="block mb-2 text-sm text-gray-600 dark:text-gray-400"
+                  >Nombre completo</label
+                >
+                <input
+                  type="text"
+                  name="Nombre completo"
+                  id="full_name"
+                  placeholder="p.ej. Juan González"
+                  required
+                  class="w-full px-3 py-2 bg-white placeholder-gray-300 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300"
+                />
+                <div
+                  class="empty-feedback invalid-feedback text-red-400 text-sm mt-1"
+                >
+                  Por favor ingresa tu nombre completo.
+                </div>
+              </div>
+              <div class="mb-4">
+                <label
+                  for="email"
+                  class="block mb-2 text-sm text-gray-600 dark:text-gray-400"
+                  >Correo electrónico</label
+                >
+                <input
+                  type="tel"
+                  name="teléfono"
+                  id="tel"
+                  placeholder="nombre@correo.com"
+                  required
+                  class="w-full px-3 py-2 bg-white placeholder-gray-300 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300"
+                />
+                <div class="empty-feedback text-red-400 text-sm mt-1">
+                    Por favor ingresa una dirección de correo electrónico.
+                </div>
+                <div class="invalid-feedback text-red-400 text-sm mt-1">
+                  Ingresa un correo electrónico válido.
+                </div>
+              </div>
+            <div class="mb-4">
+              <label
+                for="message"
+                class="block mb-2 text-sm text-gray-600 dark:text-gray-400"
+                >Tu mensaje</label
+              >
+              <textarea
+                rows="4"
+                name="Mensaje"
+                id="message"
+                placeholder="Escribe tu mensaje"
+                class="w-full h-28 px-3 py-2 bg-white placeholder-gray-300 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300"
+                required
+              ></textarea>
+              <div
+                class="empty-feedback invalid-feedback text-red-400 text-sm mt-1"
+              >
+                Por favor escribe tu mensaje.
+              </div>
+            </div>
+            <div class="mb-3">
+              <button
+                type="submit"
+                class="w-full px-3 py-4 text-white bg-indigo-500 rounded-md focus:bg-indigo-600 focus:outline-none"
+              >
+                Enviar mensaje
+              </button>
+            </div>
+          </form>
+         </div>
+        </div>
+        <button
+          id="w3f__widget--btn"
+          @click="open = !open"
+          class="fixed z-40 right-5 bottom-5 shadow-lg flex justify-center items-center w-14 h-14 bg-indigo-500 rounded-full focus:outline-none hover:bg-indigo-600 focus:bg-indigo-600 transition duration-300 ease"
+        >
+          <svg
+            class="w-6 h-6 text-white absolute"
+            x-show="!open"
+            x-transition:enter-start="opacity-0 -rotate-45 scale-75"
+            x-transition:enter="transition duration-200 transform ease"
+            x-transition:leave="transition duration-100 transform ease"
+            x-transition:leave-end="opacity-0 -rotate-45"
+            xmlns="http://www.w3.org/2000/svg"
+            width="16"
+            height="16"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path
+              d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"
+            ></path>
+          </svg>
+  
+          <svg
+            class="w-6 h-6 text-white absolute"
+            x-show="open"
+            x-transition:enter-start="opacity-0 rotate-45 scale-75"
+            x-transition:enter="transition duration-200 transform ease"
+            x-transition:leave="transition duration-100 transform ease"
+            x-transition:leave-end="opacity-0 rotate-45"
+            xmlns="http://www.w3.org/2000/svg"
+            width="16"
+            height="16"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <line x1="18" y1="6" x2="6" y2="18"></line>
+            <line x1="6" y1="6" x2="18" y2="18"></line>
+          </svg>
+        </button>
+      
+    </div>
+  
+    <style>
+        .invalid-feedback,
+        .empty-feedback {
+          display: none;
+        }
+  
+        .was-validated :placeholder-shown:invalid ~ .empty-feedback {
+          display: block;
+        }
+  
+        .was-validated :not(:placeholder-shown):invalid ~ .invalid-feedback {
+          display: block;
+        }
+  
+        .is-invalid,
+        .was-validated :invalid {
+          border-color: #dc3545;
+        }
+  
+        .is-invalid,
+        .was-validated :invalid:focus {
+      --tw-ring-color: rgba(220, 53, 69, 0.2);
+  }
+      </style>
+      <!-- Web3Forms Popup Widget End here -->
+
+<!-- Section 6 -->
+<section class="bg-white">
+    <div class="px-8 py-8 mx-auto sm:py-10 lg:py-20 max-w-7xl">
+        <div class="relative py-6 overflow-hidden rounded-lg bg-gradient-to-r from-pink-500 to-purple-500 lg:py-12 md:px-6 lg:p-16 lg:flex lg:items-center lg:justify-between md:shadow-xl md:bg-purple-1000">
+            <div class="absolute top-0 right-0 hidden w-full -mt-20 transform rotate-45 translate-x-1/2 bg-white sm:block h-96 opacity-5"></div>
+            <div class="absolute top-0 left-0 hidden w-full -mt-20 transform rotate-45 -translate-x-1/2 bg-pink-300 sm:block h-96 opacity-5"></div>
+            <div class="relative p-6 rounded-lg md:p-0 md:pb-4">
+                <h2 class="text-3xl font-extrabold leading-9 tracking-tight text-white sm:text-4xl sm:leading-10">¡Libérate del estrés!</h2>
+                <p class="w-full mt-5 text-base leading-6 text-pink-100 md:w-3/4">Más de 1,500 tareas concretadas nos respaldan. Tarea garantizada o te regresamos tu dinero.</p>
+            </div>
+            <div class="relative flex flex-col items-center w-full px-6 space-y-5 md:space-x-5 md:space-y-0 md:flex-row md:w-auto lg:flex-shrink-0 md:px-0">
+                <a href="#_" class="block w-full px-5 py-3 text-base font-medium leading-6 text-center text-purple-600 transition duration-150 ease-in-out bg-purple-100 rounded-md md:inline-flex md:shadow md:w-auto hover:bg-white focus:outline-none focus:shadow-outline">Cotizar tarea ahora</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Section 7 -->
+<section class="py-16 bg-white md:py-20 lg:py-24">
+    <div class="max-w-5xl px-12 mx-auto xl:px-0">
+
+        <h2 class="text-3xl font-black md:text-4xl lg:text-6xl xl:text-7xl">Preguntas frecuentes</h2>
+        <p class="mt-4 text-xl font-thin text-gray-700 lg:text-2xl">Queremos que antes de cotizar tu tarea hayas despejado todas tus dudas ❤️</p>
+
+        <div class="relative mt-12 space-y-3">
+
+            <!-- Question 1 -->
+            <div x-data="{ show: false }" class="relative overflow-hidden border-b border-gray-100 select-none">
+                <h4 @click="show=!show" class="flex items-center justify-between px-2 text-lg font-medium text-gray-700 cursor-pointer sm:text-xl md:text-2xl py-7 hover:text-gray-900">
+                    <span>¿Hacen mis tareas gratis?</span>
+                    <svg class="w-6 h-6 mr-2 transition-all duration-200 ease-out transform rotate-0" :class="{ '-rotate-180' : show }" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+                </h4>
+                <p class="px-2 pt-0 -mt-2 text-gray-400 sm:text-lg py-7" x-transition:enter="transition-all ease-out duration-300" x-transition:enter-start="opacity-0 transform -translate-y-4" x-transition:enter-end="opacity-100 transform -translate-y-0" x-transition:leave="transition-all ease-in duration-300" x-transition:leave-start="opacity-100 transform -translate-y-0" x-transition:leave-end="opacity-0 transform -translate-y-4" x-show="show" x-cloak="">¡No! Cada trabajo tiene un precio diferente según su complejidad, el tiempo con el que cotizas, etc. Debes cotizar personalmente tu trabajo para poder ofrecerte un precio.</p>
+            </div>
+
+            <!-- Question 2 -->
+            <div x-data="{ show: false }" class="relative overflow-hidden border-b border-gray-100 select-none">
+                <h4 @click="show=!show" class="flex items-center justify-between px-2 text-lg font-medium text-gray-700 cursor-pointer sm:text-xl md:text-2xl py-7 hover:text-gray-900">
+                    <span>¿En qué momento se realiza el pago?</span>
+                    <svg class="w-6 h-6 mr-2 transition-all duration-200 ease-out transform rotate-0" :class="{ '-rotate-180' : show }" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+                </h4>
+                <p class="px-2 pt-0 -mt-2 text-gray-400 sm:text-lg py-7" x-transition:enter="transition-all ease-out duration-300" x-transition:enter-start="opacity-0 transform -translate-y-4" x-transition:enter-end="opacity-100 transform -translate-y-0" x-transition:leave="transition-all ease-in duration-300" x-transition:leave-start="opacity-100 transform -translate-y-0" x-transition:leave-end="opacity-0 transform -translate-y-4" x-show="show" x-cloak="">Todos los pagos se realizan por adelantado, a excepción de aquellos donde su precio excedan los $1,500 MXN, en esos casos, se permitirá que pagues la mitad por adelantado y la mitad el día de la entrega.</p>
+            </div>
+
+            <!-- Question 3 -->
+            <div x-data="{ show: false }" class="relative overflow-hidden border-b border-gray-100 select-none">
+                <h4 @click="show=!show" class="flex items-center justify-between px-2 text-lg font-medium text-gray-700 cursor-pointer sm:text-xl md:text-2xl py-7 hover:text-gray-900">
+                    <span>¿Quién hace mis tareas?</span>
+                    <svg class="w-6 h-6 mr-2 transition-all duration-200 ease-out transform rotate-0" :class="{ '-rotate-180' : show }" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+                </h4>
+                <p class="px-2 pt-0 -mt-2 text-gray-400 sm:text-lg py-7" x-transition:enter="transition-all ease-out duration-300" x-transition:enter-start="opacity-0 transform -translate-y-4" x-transition:enter-end="opacity-100 transform -translate-y-0" x-transition:leave="transition-all ease-in duration-300" x-transition:leave-start="opacity-100 transform -translate-y-0" x-transition:leave-end="opacity-0 transform -translate-y-4" x-show="show" x-cloak="">Nuestro equipo está formado por profesionales divididos por áreas. Por ejemplo, si tu tarea es de matemáticas, tu trabajo lo hará un economista egresado. Si tu tarea es de medicina, lo realizará un estudiante egresado de medicina. Esto con la finalidad de que tu trabajo siempre sea de la mejor calidad posible.</p>
+            </div>
+
+            <!-- Question 4 -->
+            <div x-data="{ show: false }" class="relative overflow-hidden border-b border-gray-100 select-none">
+                <h4 @click="show=!show" class="flex items-center justify-between px-2 text-lg font-medium text-gray-700 cursor-pointer sm:text-xl md:text-2xl py-7 hover:text-gray-900">
+                    <span>¿Qué métodos de pago aceptan?</span>
+                    <svg class="w-6 h-6 mr-2 transition-all duration-200 ease-out transform rotate-0" :class="{ '-rotate-180' : show }" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+                </h4>
+                <p class="px-2 pt-0 -mt-2 text-gray-400 sm:text-lg py-7" x-transition:enter="transition-all ease-out duration-300" x-transition:enter-start="opacity-0 transform -translate-y-4" x-transition:enter-end="opacity-100 transform -translate-y-0" x-transition:leave="transition-all ease-in duration-300" x-transition:leave-start="opacity-100 transform -translate-y-0" x-transition:leave-end="opacity-0 transform -translate-y-4" x-show="show" x-cloak="">En México, aceptamos una cantidad enorme de métodos de pago:
+                  <br>
+                  En línea con tarjetas de crédito y débito, PayPal, Transferencia bancaria, Oxxo, Extra, Circle K, BBVA Bancomer, Citibanamex, Chedraui, Telecomm, etc.
+                </p>
+            </div>
+
+            <!-- Question 5 -->
+            <div x-data="{ show: false }" class="relative overflow-hidden border-b border-gray-100 select-none">
+                <h4 @click="show=!show" class="flex items-center justify-between px-2 text-lg font-medium text-gray-700 cursor-pointer sm:text-xl md:text-2xl py-7 hover:text-gray-900">
+                    <span>¿Son una empresa segura?</span>
+                    <svg class="w-6 h-6 mr-2 transition-all duration-200 ease-out transform rotate-0" :class="{ '-rotate-180' : show }" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+                </h4>
+                <p class="px-2 pt-0 -mt-2 text-gray-400 sm:text-lg py-7" x-transition:enter="transition-all ease-out duration-300" x-transition:enter-start="opacity-0 transform -translate-y-4" x-transition:enter-end="opacity-100 transform -translate-y-0" x-transition:leave="transition-all ease-in duration-300" x-transition:leave-start="opacity-100 transform -translate-y-0" x-transition:leave-end="opacity-0 transform -translate-y-4" x-show="show" x-cloak="">¡Totalmente! Nuestro objetivo es ayudar a todos los estudiantes a liberarse del estrés por carga excesiva de trabajos. Nunca haríamos absolutamente nada para perjudicarte. ¡Atrévete a ser parte de los más de 300 clientes activos!</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<section class="py-10 bg-black">
+    <div class="px-10 mx-auto max-w-7xl">
+        <div class="flex flex-col items-center md:flex-row md:justify-between">
+            <a href="#_" class="flex items-center justify-center w-10 h-10 mr-3 rounded-lg mb-7">
+                    <img src="blanco-TTE.png" alt="" width="36" height="36">
+            </a>
+
+            <div class="flex flex-row justify-center mb-4 -ml-4 -mr-4"> <a href="#" class="p-4 text-gray-700 hover:text-gray-400"> <svg class="fill-current" width="16" height="16" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M6.023 16L6 9H3V6h3V4c0-2.7 1.672-4 4.08-4 1.153 0 2.144.086 2.433.124v2.821h-1.67c-1.31 0-1.563.623-1.563 1.536V6H13l-1 3H9.28v7H6.023z"></path>
+                    </svg> </a> <a href="" class="p-4 text-gray-700 hover:text-gray-400"> <svg class="fill-current" width="16" height="16" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M16 3c-.6.3-1.2.4-1.9.5.7-.4 1.2-1 1.4-1.8-.6.4-1.3.6-2.1.8-.6-.6-1.5-1-2.4-1-1.7 0-3.2 1.5-3.2 3.3 0 .3 0 .5.1.7-2.7-.1-5.2-1.4-6.8-3.4-.3.5-.4 1-.4 1.7 0 1.1.6 2.1 1.5 2.7-.5 0-1-.2-1.5-.4C.7 7.7 1.8 9 3.3 9.3c-.3.1-.6.1-.9.1-.2 0-.4 0-.6-.1.4 1.3 1.6 2.3 3.1 2.3-1.1.9-2.5 1.4-4.1 1.4H0c1.5.9 3.2 1.5 5 1.5 6 0 9.3-5 9.3-9.3v-.4C15 4.3 15.6 3.7 16 3z"></path>
+                    </svg> </a> <a href="#" class="p-4 text-gray-700 hover:text-gray-400"> <svg class="fill-current" width="16" height="16" xmlns="http://www.w3.org/2000/svg">
+                        <g>
+                            <circle cx="12.145" cy="3.892" r="1"></circle>
+                            <path d="M8 12c-2.206 0-4-1.794-4-4s1.794-4 4-4 4 1.794 4 4-1.794 4-4 4zm0-6c-1.103 0-2 .897-2 2s.897 2 2 2 2-.897 2-2-.897-2-2-2z"></path>
+                            <path d="M12 16H4c-2.056 0-4-1.944-4-4V4c0-2.056 1.944-4 4-4h8c2.056 0 4 1.944 4 4v8c0 2.056-1.944 4-4 4zM4 2c-.935 0-2 1.065-2 2v8c0 .953 1.047 2 2 2h8c.935 0 2-1.065 2-2V4c0-.935-1.065-2-2-2H4z"></path>
+                        </g>
+                    </svg> </a> </div>
+        </div>
+        <div class="flex flex-col justify-between text-center md:flex-row">
+            <p class="order-last text-sm leading-tight text-gray-200 md:order-first"> Creado con ❤️ &nbsp; por <a href="https://www.facebook.com/TusTareasExpres/" target="_blank" class="text-white"> Tus Tareas Express.</a></p>
+            <ul class="flex flex-row justify-center pb-3 -ml-4 -mr-4 text-sm">
+                <li> <a href="#_" class="px-4 text-gray-500 hover:text-white">Contacto</a> </li>
+                <li> <a href="#_" class="px-4 text-gray-500 hover:text-white">Preguntas frecuentes</a> </li>
+                <li> <a href="#_" class="px-4 text-gray-500 hover:text-white">Aviso de privacidad</a></li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<!-- AlpineJS Library -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/alpinejs/2.8.0/alpine.js"></script>
+<script type="module" src="https://cdn.skypack.dev/twind/shim"></script>
+<script
+  src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js"
+  defer
+></script>
+
+<script>
+    (function () {
+      "use strict";
+      /*
+       * Form Validation
+       */
+
+      // Fetch all the forms we want to apply custom validation styles to
+      const forms = document.querySelectorAll(".needs-validation");
+      const result = document.getElementById("result");
+      // Loop over them and prevent submission
+      Array.prototype.slice.call(forms).forEach(function (form) {
+        form.addEventListener(
+          "submit",
+          function (event) {
+            if (!form.checkValidity()) {
+              event.preventDefault();
+              event.stopPropagation();
+
+              form.querySelectorAll(":invalid")[0].focus();
+            } else {
+              /*
+               * Form Submission using fetch()
+               */
+
+              const formData = new FormData(form);
+              event.preventDefault();
+              event.stopPropagation();
+              const object = {};
+              formData.forEach((value, key) => {
+                object[key] = value;
+              });
+              const json = JSON.stringify(object);
+              result.innerHTML = "Please wait...";
+
+              fetch("https://api.web3forms.com/submit", {
+                method: "POST",
+                headers: {
+                  "Content-Type": "application/json",
+                  Accept: "application/json"
+                },
+                body: json
+              })
+                .then(async (response) => {
+                  let json = await response.json();
+                  if (response.status == 200) {
+                    result.innerHTML = json.message;
+                    result.classList.remove("text-gray-500");
+                    result.classList.add("text-green-500");
+                  } else {
+                    console.log(response);
+                    result.innerHTML = json.message;
+                    result.classList.remove("text-gray-500");
+                    result.classList.add("text-red-500");
+                  }
+                })
+                .catch((error) => {
+                  console.log(error);
+                  result.innerHTML = "Something went wrong!";
+                })
+                .then(function () {
+                  form.reset();
+                  form.classList.remove("was-validated");
+                  setTimeout(() => {
+                    result.style.display = "none";
+                  }, 5000);
+                });
+            }
+            form.classList.add("was-validated");
+          },
+          false
+        );
+      });
+    })();
+  </script>
+</body>
+</html>
